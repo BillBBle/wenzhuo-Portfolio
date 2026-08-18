@@ -62,12 +62,12 @@ export default class Main extends Component {
               <Education {...props} theme={this.props.theme} />
             )}
           />
-          <Route
-            path="/opensource"
-            render={(props) => (
-              <Opensource {...props} theme={this.props.theme} />
-            )}
-          />
+          {/*<Route*/}
+          {/*  path="/opensource"*/}
+          {/*  render={(props) => (*/}
+          {/*    <Opensource {...props} theme={this.props.theme} />*/}
+          {/*  )}*/}
+          {/*/>*/}
           <Route
             path="/contact"
             render={(props) => <Contact {...props} theme={this.props.theme} />}
@@ -80,13 +80,15 @@ export default class Main extends Component {
             />
           )}
 
-          <Route
-            path="/projects"
-            render={(props) => <Projects {...props} theme={this.props.theme} />}
-          />
+          {/*<Route*/}
+          {/*  path="/projects"*/}
+          {/*  render={(props) => <Projects {...props} theme={this.props.theme} />}*/}
+          {/*/>*/}
           <Route
             path="/resume"
-            render={(props) => <ResumePage {...props} theme={this.props.theme} />}
+            render={(props) => (
+              <ResumePage {...props} theme={this.props.theme} />
+            )}
           />
           <Route
             path="*"
