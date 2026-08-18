@@ -19,9 +19,9 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Wenzhuo Feng",
+  title: "Wenzhuo Feng Test",
   logo_name: "Wenzhuo Feng",
-  nickname: "BillBBle",
+  nickname: "Bill Feng",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
