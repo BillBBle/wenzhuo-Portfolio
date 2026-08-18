@@ -33,6 +33,7 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::568608119216:role/wenzhuoFengDeploy
           aws-region: us-east-1
+          retry-max-attempts: 1
 
       - name: Deploy to S3
         run: aws s3 sync build/ s3://bill-feng.com --delete
